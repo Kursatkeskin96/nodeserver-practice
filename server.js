@@ -23,3 +23,6 @@ mongoose
   .catch((err) => {
     console.error('Connection failed:', err);
   });
+
+  // Export the app for Vercel
+module.exports = app;
